@@ -1,0 +1,32 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Illuminate\Database\Eloquent\Model;
+use Laraveldaily\Quickadmin\Observers\UserActionsObserver;
+$PASSWORDHASH_CALL$
+$DATEPICKERS_CALL$
+$SOFT_DELETE_CALL$
+
+class $CLASS$ extends Model {
+
+    $SOFT_DELETE_USE$
+
+    $SOFT_DELETE_DATES$
+
+    protected $table    = '$TABLENAME$';
+    
+    protected $fillable = [$FILLABLE$];
+    $ENUMS$
+
+    public static function boot()
+    {
+        parent::boot();
+
+        $CLASS$::observe(new UserActionsObserver);
+    }
+    $RELATIONSHIPS$
+    $PASSWORDHASH$
+    $DATEPICKERS$
+    $DATETIMEPICKERS$
+}

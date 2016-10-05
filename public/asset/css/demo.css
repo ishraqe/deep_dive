@@ -1,0 +1,97 @@
+
+
+
+
+body {
+
+	font-weight: 400;
+	font-size: medium;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	/*color: #c94e50;*/
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.content-wrap {
+	background-color: white;
+}
+
+/* Header */
+.codrops-header {
+	margin: 0 auto;
+	padding: 3em 2em;
+	text-align: center;
+	background-color: white;
+	height: 150px;
+}
+
+.codrops-header h1 {
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 3.75em;
+	line-height: 1;
+}
+
+.codrops-header h1 span {
+	display: block;
+	font-size: 50%;
+	font-weight: 400;
+	padding-top: 0.325em;
+}
+
+
+
+
+
+
+/* Demo Buttons Style */
+.codrops-demos {
+	font-size: 1em;
+	max-width: 1200px;
+	height: 100%;
+	margin: 3em auto 5em;
+	padding: 2em 10em 0;
+}
+
+
+
+/* Related demos */
+.admin_main_content{
+
+	margin-left: 130px;
+}
+
+.profile {
+	display: inline-block;
+	line-height: 42px;
+	font-weight: 700;
+	padding: 1em;
+}
+
+.profile img {
+	float: right;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+

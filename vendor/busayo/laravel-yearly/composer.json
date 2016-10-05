@@ -1,0 +1,51 @@
+{
+    "name": "unicodeveloper/laravel-yearly",
+    "description": "Provides helper function to get the current year and a range of years",
+    "keywords": [
+        "busayo",
+        "laravel-yearly",
+        "laravel",
+        "copyright",
+        "footer",
+        "year",
+        "yearAfteryear"
+    ],
+    "homepage": "https://github.com/busayo/laravel-yearly",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "busayo",
+            "email": "prosperotemuyiwa@gmail.com",
+            "homepage": "http://goodheads.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Unicodeveloper\\Yearly\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Unicodeveloper\\Yearly\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
